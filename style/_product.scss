@@ -1,0 +1,105 @@
+.product{
+    padding: 2rem 2.4rem 5rem 2.4rem;
+
+    .company-name{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $Orange;
+        text-transform: uppercase;
+        letter-spacing: 0.18rem;
+
+    }
+    .title{
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: $Veryvarkblue;
+        line-height: 118%;
+        margin-top: 1.3rem;
+    }
+    .description{
+        color: $Darkgrayishblue;
+        font-size: 1.5rem;
+        line-height: 165%;
+        margin-top: 1.6rem;
+    }
+    .price-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        .price-box{
+            
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .price{
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .discount{
+                color: $Orange;
+                font-size: 1.5rem;
+                font-weight: 700;
+                background-color: $Paleorange;
+                padding: 0.5rem 1rem;
+                margin-left: 1.5rem;
+                border-radius: 1rem;
+            }
+
+        }
+        .old-price{
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: $Grayishblue;
+            text-decoration: line-through;
+
+        }
+    }
+    .amout-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        padding: 1.2rem 2.4rem;
+        background-color: $Lightgrayishblue;
+        .amout-number{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        #btnMinus, #btnPlus{
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+    .btn{
+        background-color: $Orange;
+        color: white;
+
+        margin-top: 1.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+
+        font-size: 1.55rem;
+        font-weight: 700;
+        border-radius: 1rem;
+
+        padding: 1.9rem;
+        cursor: pointer;
+
+        box-shadow: 0px 20px 30px 0px $Paleorange;
+        img{
+            height: 1.5rem;
+            filter: brightness(300%);
+        }
+        
+    }
+
+}

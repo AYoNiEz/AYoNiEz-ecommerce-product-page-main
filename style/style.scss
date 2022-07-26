@@ -1,0 +1,29 @@
+
+$Orange: hsl(26, 100%, 55%);
+$Paleorange: hsl(25, 100%, 94%);
+
+$Veryvarkblue: hsl(220, 13%, 13%);
+$Darkgrayishblue: hsl(219, 9%, 45%);
+$Grayishblue: hsl(220, 14%, 75%);
+$Lightgrayishblue: hsl(223, 64%, 98%);
+$White: hsl(0, 0%, 100%);
+$Black: hsla(0, 0%, 0%, 0.75);  //(with 75% opacity for lightbox background)
+
+@import "header"; 
+@import "lightbox"; 
+@import "product"; 
+@import "1440px"; 
+@import "overlay"; 
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
